@@ -12,6 +12,7 @@ public class Main {
         if (operator.equals("+")) {
             hasil = nilai1 + nilai2;
         }
+        // tambahkan operasi lain
 
         System.out.println(hasil);
         input.close();
