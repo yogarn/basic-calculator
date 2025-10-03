@@ -16,6 +16,10 @@ public class Main {
         if (operator.equals("-")) {
                hasil=nilai2-nilai1;
         }
+        //tambah operasi lain
+        if (operator.equals(anObject:"*")){
+            hasil=nilai1*nilai2;
+        }
         System.out.println(hasil);
         input.close();
     }
