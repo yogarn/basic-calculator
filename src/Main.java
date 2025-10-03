@@ -13,7 +13,9 @@ public class Main {
             hasil = nilai1 + nilai2;
         }
         // tambahkan operasi lain
-
+        if (operator.equals("-")) {
+               hasil=nilai2-nilai1;
+        }
         System.out.println(hasil);
         input.close();
     }
