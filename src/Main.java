@@ -16,9 +16,13 @@ public class Main {
         if (operator.equals("-")) {
                hasil=nilai2-nilai1;
         }
-        if (operator.equals("/")) {
+        if (operator.equals(anObject:"*")){
+            hasil=nilai1*nilai2;
+        }
+         if (operator.equals("/")) {
                 hasil=nilai2/nilai1;
         }
+
         System.out.println(hasil);
         input.close();
     }
